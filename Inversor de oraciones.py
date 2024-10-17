@@ -1,0 +1,5 @@
+phrase= str(input("Itroduce sentence: "))
+split_phrase= phrase.split(" ")
+reversed_split_phrase = reversed(split_phrase)
+inverted_phrase_joined = "".join(reversed_split_phrase)
+print (inverted_phrase_joined)
